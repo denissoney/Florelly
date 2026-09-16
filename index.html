@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FLOR.ELLY - Floricultura. Flores, arranjos e serviços florais especiais.">
+    <title>FLOR.ELLY | Floricultura</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="#inicio" class="logo"><img src="assets/logo.jpg" alt="FLOR.ELLY Floricultura"></a>
+            <nav class="navigation">
+                <a href="#inicio">Início</a>
+                <a href="#catalogo">Catálogo</a>
+                <a href="#sobre">Sobre nós</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <button class="menu-mobile" id="menuMobile" aria-label="Abrir menu">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <span class="hero-subtitle">FLORICULTURA</span>
+                <h1>Flores que <span>transmitem sentimentos.</span></h1>
+                <p>Arranjos florais delicados e personalizados para transformar momentos especiais em memórias inesquecíveis.</p>
+                <a href="#catalogo" class="hero-button">Ver catálogo</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/logo.jpg" alt="FLOR.ELLY">
+            </div>
+        </section>
+
+        <section class="catalogo" id="catalogo">
+            <div class="section-title">
+                <span>NOSSO CATÁLOGO</span>
+                <h2>Escolha suas flores</h2>
+                <p>Clique na foto para ver em tela cheia.</p>
+            </div>
+            <div class="flowers-grid">
+                <article class="flower-card" data-flower="Buquê Encanto">
+                    <div class="flower-image">
+                        <img src="assets/flores/Buque-encanto.jpeg" alt="Buquê Encanto">
+                    </div>
+                    <div class="flower-info">
+                        <span>FLOR.ELLY</span>
+                        <h3>Buquê Encanto</h3>
+                        <p>Flores delicadas para momentos especiais.</p>
+                        <button class="flower-button">Ver detalhes</button>
+                    </div>
+                </article>
+                <article class="flower-card" data-flower="Buquê Intenso">
+                    <div class="flower-image">
+                        <img src="assets/flores/buque-intenso.jpeg" alt="Buquê Intenso">
+                    </div>
+                    <div class="flower-info">
+                        <span>FLOR.ELLY</span>
+                        <h3>Buquê Intenso</h3>
+                        <p>Elegância e beleza em cada detalhe.</p>
+                        <button class="flower-button">Ver detalhes</button>
+                    </div>
+                </article>
+                <article class="flower-card" data-flower="Buquê meu sol">
+                    <div class="flower-image">
+                        <img src="assets/flores/buque-meu-sol.jpeg" alt="Buquê meu sol">
+                    </div>
+                    <div class="flower-info">
+                        <span>FLOR.ELLY</span>
+                        <h3>Buquê meu sol</h3>
+                        <p>Composições sofisticadas para ambientes especiais.</p>
+                        <button class="flower-button">Ver detalhes</button>
+                    </div>
+                </article>
+                <article class="flower-card" data-flower="Buquê Afeto">
+                    <div class="flower-image">
+                        <img src="assets/flores/buque-afeto.jpeg" alt="Buqê Afeto">
+                    </div>
+                    <div class="flower-info">
+                        <span>FLOR.ELLY</span>
+                        <h3>Buquê Afeto</h3>
+                        <p>Decoração floral para ocasiões inesquecíveis.</p>
+                        <button class="flower-button">Ver detalhes</button>
+                    </div>
+                </article>
+                <article class="flower-card" data-flower="Buquê doce primavera">
+                    <div class="flower-image">
+                        <img src="assets/flores/buque-doce-primavera.jpeg" alt="Buquê doce primavera">
+                    </div>
+                    <div class="flower-info">
+                        <span>FLOR.ELLY</span>
+                        <h3>Buquê doce primavera</h3>
+                        <p>Flores pensadas para deixar cada espaço especial.</p>
+                        <button class="flower-button">Ver detalhes</button>
+                    </div>
+                </article>
+                <article class="flower-card" data-flower="Buquê Elly">
+                    <div class="flower-image">
+                        <img src="assets/flores/buque-elly.jpeg" alt="Buquê Elly">
+                    </div>
+                    <div class="flower-info">
+                        <span>FLOR.ELLY</span>
+                        <h3>Buquê Elly</h3>
+                        <p>Crie uma composição única para alguém especial.</p>
+                        <button class="flower-button">Ver detalhes</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="about" id="sobre">
+            <div class="about-image">
+                <img src="assets/logo.jpg" alt="FLOR.ELLY Floricultura">
+            </div>
+            <div class="about-content">
+                <span>SOBRE A FLOR.ELLY</span>
+                <h2>Cada flor conta uma história.</h2>
+                <p>Na FLOR.ELLY, acreditamos que as flores possuem o poder de transmitir sentimentos que muitas vezes as palavras não conseguem expressar.</p>
+                <p>Criamos arranjos e experiências florais pensadas especialmente para cada ocasião.</p>
+            </div>
+        </section>
+
+        <section class="contact" id="contato">
+            <div class="section-title">
+                <span>FALE CONOSCO</span>
+                <h2>Vamos criar algo especial?</h2>
+                <p>Entre em contato com a FLOR.ELLY.</p>
+            </div>
+            <div class="social-container">
+                <a href="https://www.instagram.com/flor.elly_" class="social-card instagram" target="_blank">
+                    <div class="social-icon">◎</div>
+                    <div>
+                        <span>INSTAGRAM</span>
+                        <h3>@flor.elly_</h3>
+                    </div>
+                </a>
+                <a href="https://wa.me/5582996088327?text=Ol%C3%A1%20FLOR.ELLY!%20Vim%20pelo%20site." class="social-card whatsapp" target="_blank">
+                    <div class="social-icon">☎</div>
+                    <div>
+                        <span>WHATSAPP</span>
+                        <h3>(82) 99608-8327</h3>
+                    </div>
+                </a>
+                <a href="https://wa.me/5582993157519?text=Ol%C3%A1%20FLOR.ELLY!%20Vim%20pelo%20site." class="social-card whatsapp" target="_blank">
+                    <div class="social-icon">☎</div>
+                    <div>
+                        <span>WHATSAPP</span>
+                        <h3>(82) 99315-7519</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <div class="image-fullscreen" id="imageFullscreen" aria-hidden="true">
+        <button class="fullscreen-close" id="fullscreenClose">×</button>
+        <img id="fullscreenImage" src="" alt="">
+        <span class="fullscreen-caption" id="fullscreenCaption"></span>
+    </div>
+
+    <div class="flower-modal" id="flowerModal" aria-hidden="true">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">×</button>
+            <div class="modal-image"><img id="modalFlowerImage" src="" alt=""></div>
+            <div class="modal-info">
+                <span>FLOR.ELLY</span><h2 id="modalFlowerName"></h2><p id="modalFlowerDescription"></p>
+                <div class="modal-contacts">
+                    <h3>Tenho interesse</h3>
+                    <a href="https://wa.me/5582996088327" class="modal-whatsapp" target="_blank">WhatsApp 01 - (82) 99608-8327</a>
+                    <a href="https://wa.me/5582993157519" class="modal-whatsapp" target="_blank">WhatsApp 02 - (82) 99315-7519</a>
+                    <a href="https://www.instagram.com/flor.elly_" class="modal-instagram" target="_blank">Instagram @flor.elly_</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="assets/logo.jpg" alt="FLOR.ELLY">
+        </div>
+        <p>© 2026 FLOR.ELLY — Floricultura. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
